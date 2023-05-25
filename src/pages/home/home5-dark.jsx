@@ -3,7 +3,7 @@ import AboutWithSkills from "../../components/About-with-skills";
 import Footer from "../../components/Footer";
 import IntroTxt from "../../components/Intro-txt";
 import Navbar from "../../components/Navbar";
-import Numbers1 from "../../components/Numbers";
+// import Numbers1 from "../../components/Numbers";
 import PortfolioCustomColumn from "../../components/Portfolio-custom-column";
 import Services4 from "../../components/Services4";
 import Testimonials1 from "../../components/Testimonials1";
@@ -38,7 +38,7 @@ const Homepage2 = () => {
       <IntroTxt subBG />
       <AboutWithSkills />
       <Services4 halfBG />
-      <Numbers1 />
+      {/* <Numbers1 /> */}
       <PortfolioCustomColumn column={2} filterPosition="left" />
       <Testimonials1 subBgLftstl parallaxie withBG overlay />
       <BlogsThreeColum2 />

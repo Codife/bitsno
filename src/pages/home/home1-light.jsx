@@ -6,7 +6,7 @@ import Clients1 from "../../components/Clients1";
 import Footer from "../../components/Footer";
 import IntroWithSlider1 from "../../components/Intro-with-slider1";
 import Navbar from "../../components/Navbar";
-import Numbers1 from "../../components/Numbers";
+// import Numbers1 from "../../components/Numbers";
 import Services1 from "../../components/Services1";
 import SkillsCircle from "../../components/Skills-circle";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
@@ -54,7 +54,7 @@ const Homepage1 = () => {
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services1 />
-        <Numbers1 />
+        {/* <Numbers1 /> */}
         <Works1Slider />
         <VideoWithTestimonials />
         <SkillsCircle theme="light" subBG />

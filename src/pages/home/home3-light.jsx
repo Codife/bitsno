@@ -4,7 +4,7 @@ import BlogsThreeColumn1 from "../../components/Blogs-three-column1";
 import Footer from "../../components/Footer";
 import IntroWithSlider3 from "../../components/Intro-with-slider3";
 import Navbar from "../../components/Navbar";
-import NumbersWithVideo from "../../components/Numbers-with-video";
+// import NumbersWithVideo from "../../components/Numbers-with-video";
 import Services3 from "../../components/Services3";
 import Testimonials1 from "../../components/Testimonials1";
 import Works2Slider from "../../components/Works2-slider";
@@ -40,7 +40,7 @@ const Homepage3 = () => {
       <IntroWithSlider3 />
       <AboutUs2 skillsTheme="light" />
       <Services3 />
-      <NumbersWithVideo theme="light" />
+      {/* <NumbersWithVideo theme="light" /> */}
       <Works2Slider subBG />
       <Testimonials1 />
       <BlogsThreeColumn1 subBG />
