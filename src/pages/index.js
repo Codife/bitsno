@@ -31,24 +31,6 @@ export default function Home() {
     });
   }, [navbarRef]);
 
-
-  fetch(
-    'https://shadi-karlo-api.bitsno.com/auth/signin',
-    {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json; charset=utf-8',
-        Accept: '*/*',
-      },
-      body: JSON.stringify({
-        email: 'chatuser@yoppmail.com',
-        password: 'Test@1234',
-      }),
-    },
-  ).then((res) => {
-    console.log(res)
-  }).catch(e => console.log(e));
-
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
